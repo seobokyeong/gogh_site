@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background: #000;
+}
+
+.container {
+  max-width: 1200px;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+section {
+  padding: 120px 0;
+}
+
+h4 {
+  font-size: 40px;
+  font-family: 'Yeseva One', cursive;
+  line-height: 1.2;
+}
+
+h5 {
+  font-family: 'Yesteryear', cursive;
+}
+
+.hideme {
+  opacity: 0;
+}
+
+.more {
+  text-align: right;
+}
+
+.more a {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #fff;
+  font-size: 15px;
+  margin-top: 30px;
+  transition: all 0.3s;
+}
+
+.more a:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* 메뉴 */
+
+.logo {
+  width: 212px;
+}
+
+.header {
+  color: #fff;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background: #000;
+  background-color: rgba(0, 0, 0, 0.219);
+}
+
+.header .container {
+  justify-content: space-between;
+}
+
+.header .nav li {
+  margin-left: 30px;
+}
+
+/* 슬라이더 */
+
+.main_slide {
+  position: relative;
+}
+
+.slide_01 .item {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide_01 .item_01 {
+  background-image: url(../img/slide_01.png);
+}
+
+.slide_01 .item_02 {
+  background-image: url(../img/slide_02.png);
+}
+
+.slide_01 .item_03 {
+  background-image: url(../img/slide_01.png);
+}
+
+.main_slide .slick-dots {
+  bottom: 30px;
+}
+
+.main_slide .slick-dots li {
+  width: 50px;
+  height: 3px;
+  transition: width 0.3s;
+}
+
+.main_slide .slick-dots li.slick-active {
+  width: 120px;
+}
+
+.main_slide .slick-dots li button {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  opacity: 0.3;
+}
+
+.main_slide .slick-dots li.slick-active button {
+  opacity: 0.8;
+}
+
+.main_slide .slick-dots li button::before {
+  display: none;
+}
+
+.slide_text {
+  font-size: 35px;
+  font-weight: 700;
+  width: 370px;
+  height: 410px;
+  color: #171717;
+  padding: 70px;
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  background: #fff;
+  background-color: rgba(255, 255, 255, 0.4);
+  line-height: 1.4;
+  text-align: center;
+  z-index: 2;
+}
+
+.slide_text h2 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.slide_text p {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.dimm_01 {
+  z-index: -1;
+  position: absolute;
+  top: -5%;
+  right: 5%;
+  width: 370px;
+  height: 410px;
+  padding: 70px;
+  border: 5px solid #fff;
+}
+
+.slide_text .btn {
+  font-size: 20px;
+  background: #171717;
+  color: #fff;
+  padding: 8px 80px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.slide_text .btn:hover {
+  background: #fff;
+  color: #171717;
+  box-shadow: 0.5px 0.5px 5px 0px #000;
+}
+
+/* 섹션 */
+.title {
+  margin-bottom: 40px;
+}
+
+.title h3 {
+  width: 15%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.title h4 {
+  width: 80%;
+}
+
+.title_span {
+  line-height: 1.4;
+}
+
+/* 섹션01 */
+
+.section_01 {
+}
+
+.profile {
+  margin-top: 100px;
+  align-items: flex-start;
+}
+
+.profile img {
+  width: 290px;
+  height: 360px;
+}
+
+.profile .right {
+  margin-left: 100px;
+}
+
+.profile .right ul li {
+  margin-bottom: 12px;
+  line-height: 1.4;
+  display: flex;
+}
+
+.profile .right ul li span {
+  margin-right: 10px;
+  font-weight: 500;
+  width: 12%;
+}
+
+.profile .right ul li .profilo_text {
+  width: 80%;
+}
+
+/*배너  */
+.banner {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner_text {
+  width: 1200px;
+  font-size: 50px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.banner_01 {
+  background: url(../img/slide_01.png) no-repeat center / cover;
+  background: transparent;
+}
+
+.banner_02 {
+  background: url(../img/slide_01.png) no-repeat center / cover;
+  background: transparent;
+}
+
+/* section_02 */
+
+.section_02 .title {
+  align-items: flex-start;
+}
+
+.section_02 .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.section_02 .grid li:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.section_02 .grid li:nth-child(2) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.section_02 .grid li:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.section_02 .grid li:nth-child(4) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.section_02 .grid li:nth-child(5) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.section_02 .grid li:nth-child(6) {
+  grid-column: span 1;
+}
+
+.section_02 .more {
+  margin-top: 40px;
+}
+
+.grid_photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.dimm {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.grid li:nth-child(1) dl dt,
+.grid li:nth-child(4) dl dt {
+  font-size: 22px;
+}
+
+.grid li:nth-child(1) dl dd,
+.grid li:nth-child(4) dl dd {
+  font-size: 18px;
+}
+
+.grid dl {
+  position: absolute;
+  bottom: -140px;
+  left: 0;
+  color: #fff;
+  padding: 0 20px;
+  transition: all 0.3s;
+}
+
+.grid dl dt {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.grid dl dd {
+  margin-bottom: 70px;
+  font-size: 16px;
+}
+
+.grid dl dd a {
+  display: inline-block;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.grid dl a:hover {
+  opacity: 1;
+}
+
+.grid .grid_photo:hover .dimm {
+  opacity: 1;
+}
+
+.grid .grid_photo:hover dl {
+  bottom: -55px;
+}
+
+/* section_03 */
+
+.section_03 .title {
+  align-items: flex-start;
+}
