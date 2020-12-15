@@ -134,15 +134,15 @@ h5 {
 }
 
 .slide_01 .item_01 {
-  background-image: url(../img/banner_01.jpg);
+  background-image: url(../img/slide_03.jpg);
 }
 
 .slide_01 .item_02 {
-  background-image: url(../img/slide_02.png);
+  background-image: url(../img/slide_01.png);
 }
 
 .slide_01 .item_03 {
-  background-image: url(../img/slide_01.png);
+  background-image: url(../img/slide_02.png);
 }
 
 .main_slide .slick-dots {
@@ -374,6 +374,7 @@ h5 {
 .grid_photo {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .dimm {
