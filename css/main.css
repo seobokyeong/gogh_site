@@ -377,7 +377,15 @@ h5 {
   cursor: pointer;
 }
 
-.dimm {
+.grid_photo img {
+  transition: all 0.3s;
+}
+
+.grid_photo img:hover {
+  transform: scale(1.05);
+}
+
+/* .dimm {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -386,7 +394,7 @@ h5 {
   background: rgba(0, 0, 0, 0.6);
   opacity: 0;
   transition: all 0.5s;
-}
+} */
 
 .grid li:nth-child(1) dl dt,
 .grid li:nth-child(4) dl dt {
@@ -428,9 +436,9 @@ h5 {
   opacity: 1;
 }
 
-.grid .grid_photo:hover .dimm {
+/* .grid .grid_photo:hover .dimm {
   opacity: 1;
-}
+} */
 
 .grid .grid_photo:hover dl {
   bottom: -55px;
