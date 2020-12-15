@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./css/common.css" />
     <link
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
@@ -20,9 +20,9 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
-    <script src="./common.js"></script>
-    <link rel="stylesheet" href="./main.css" />
-    <title>Document</title>
+    <script src="./js/common.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Gogh Museum</title>
   </head>
   <body>
     <div class="header">
@@ -30,7 +30,7 @@
         <a href="" class="logo"><img src="./img/logo.png" alt="" /></a>
         <ul class="nav flex">
           <li><a href="">홈</a></li>
-          <li><a href="">박물관소개</a></li>
+          <li><a href="">미술관 소개</a></li>
           <li><a href="">전시안내</a></li>
           <li><a href="">오시는 길</a></li>
           <li><a href="">고객센터</a></li>
@@ -39,6 +39,7 @@
     </div>
     <!-- 메인 슬라이드 섹션 -->
     <div class="main_slide">
+      <div class="slide_dimm"></div>
       <!-- 슬라이드 -->
       <div class="slide_01">
         <div class="item item_01"></div>
@@ -52,7 +53,7 @@
       </div>
       <!-- 슬라이드 텍스트 -->
       <div class="slide_text">
-        <h2>빈센트 반 고흐 박물관에 오신 걸 환영합니다.</h2>
+        <h2>빈센트 반 고흐 미술관에 오신 걸 환영합니다.</h2>
         <p>
           “I feel that there is nothing more truly artistic than to love people”
         </p>
@@ -75,7 +76,7 @@
       </span>
       <div class="profile flex">
         <div class="left">
-          <img src="./img/slide_01.png" alt="" />
+          <img src="./img/profilo.jpg" alt="" />
         </div>
         <div class="right">
           <ul>
@@ -117,6 +118,7 @@
     </section>
 
     <div class="banner banner_01">
+      <div class="banner_dimm"></div>
       <div class="banner_text">
         <h5>
           The beginning is perhaps more difficult than anything else but keep
@@ -134,90 +136,88 @@
         </h4>
       </div>
       <span class="title_span"
-        >네덜란드의 화가. 27세에 그림을 그리기 시작했으며 주로 남프랑스에서 작품
-        활동을 했다.<br />
-        초기에는 하층민의 생활과 풍경을 어두운 색조로 그리다가 자신만의 색의
-        대조, 강렬한 붓 터치와 색감을 완성했다. 당대에는 인정받지 못했지만 죽은
-        뒤 야수파, 초기 추상화, 표현주의에 큰 영향을 끼쳤다.
+        >박물관의 전시에서 빈센트 반 고흐의 걸작을 탐험하여 보세요.<br />
+        박물관 갤러리에서 예술가로서의 그의 발전을 확인하고, 그의 아이디어와
+        야망을 알고 반 고흐의 세계로 떠나보세요.
       </span>
       <ul class="grid">
         <li class="grid_photo">
-          <a href="#"><img src="./img/slide_01.png" alt="" /></a>
+          <a href="#"><img src="./img/photo_01.jpg" alt="" /></a>
           <div class="dimm"></div>
           <dl>
             <dt class="dt">
-              <span>자화상 (Autoportrait)</span>
+              <span>별이 빛나는 밤 (The Starry Night)</span>
             </dt>
             <dd>
-              1889년 , 오르세 미술관
+              1889년 , 뉴욕 현대미술관
               <!-- <a class="grid-item" href="">MORE</a> -->
             </dd>
           </dl>
         </li>
         <li class="grid_photo">
-          <a href="#"><img src="./img/slide_01.png" alt="" /></a>
+          <a href="#"><img src="./img/photo_02.jpg" alt="" /></a>
           <div class="dimm"></div>
           <dl>
             <dt class="dt">
-              <span>자화상 (Autoportrait)</span>
+              <span>아를의 반 고흐의 방 (Van Gogh's Bedroom at Arles)</span>
             </dt>
             <dd>
-              1889년 , 오르세 미술관
+              1889년 , 시카고 아트 인스티튜트
               <!-- <a class="grid-item" href="">MORE</a> -->
             </dd>
           </dl>
         </li>
         <li class="grid_photo">
-          <a href="#"><img src="./img/slide_01.png" alt="" /></a>
+          <a href="#"><img src="./img/photo_03.jpg" alt="" /></a>
           <div class="dimm"></div>
           <dl>
             <dt class="dt">
-              <span>자화상 (Autoportrait)</span>
+              <span>아를의 별이 빛나는 밤 (Starry Night)</span>
             </dt>
             <dd>
-              1889년 , 오르세 미술관
+              1888년 , 오르세 미술관
               <!-- <a class="grid-item" href="">MORE</a> -->
             </dd>
           </dl>
         </li>
         <li class="grid_photo">
-          <a href="#"><img src="./img/slide_01.png" alt="" /></a>
+          <a href="#"><img src="./img/photo_04.jpg" alt="" /></a>
+          <div class="dimm"></div>
+          <dl>
+            <dt class="dt">
+              <span>까마귀가 나는 밀밭 (Wheatfield with Crows)</span>
+            </dt>
+            <dd>
+              1890년 , 암스테르담 시립박물관
+              <!-- <a class="grid-item" href="">MORE</a> -->
+            </dd>
+          </dl>
+        </li>
+        <li class="grid_photo">
+          <a href="#"><img src="./img/photo_05.jpg" alt="" /></a>
           <div class="dimm"></div>
           <dl>
             <dt class="dt">
               <span
-                >아를르의 포룸 광장의 카페 테라스 Terrace of a café at night
-                (Place du Forum)</span
+                >생트 마리 바다 위의 보트 (Boats at Sea, Saintes - Maries - de -
+                la - Mer)</span
               >
             </dt>
             <dd>
-              1888년 , 크뢸러뮐러 미술관
+              1888년 , 푸슈킨 미술관
               <!-- <a class="grid-item" href="">MORE</a> -->
             </dd>
           </dl>
         </li>
         <li class="grid_photo">
-          <a href="#"><img src="./img/slide_01.png" alt="" /></a>
+          <a href="#"><img src="./img/photo_06.jpg" alt="" /></a>
           <div class="dimm"></div>
           <dl>
             <dt class="dt">
-              <span>자화상 (Autoportrait)</span>
+              <span>꽃 피는 아몬드 나무 (Almond Blossom)</span>
             </dt>
             <dd>
-              1889년 , 오르세 미술관
-              <!-- <a class="grid-item" href="">MORE</a> -->
-            </dd>
-          </dl>
-        </li>
-        <li class="grid_photo">
-          <a href="#"><img src="./img/slide_01.png" alt="" /></a>
-          <div class="dimm"></div>
-          <dl>
-            <dt class="dt">
-              <span>자화상 (Autoportrait)</span>
-            </dt>
-            <dd>
-              1889년 , 오르세 미술관
+              1890년 , 반 고흐 미술관
               <!-- <a class="grid-item" href="">MORE</a> -->
             </dd>
           </dl>
@@ -241,6 +241,7 @@
     </section>
 
     <div class="banner banner_02">
+      <div class="banner_dimm"></div>
       <div class="banner_text">
         <h5>
           The beginning is perhaps more difficult than anything else but keep
@@ -254,8 +255,138 @@
         <h3>박물관 소식</h3>
         <h4>“ Even the darkest night will end and the sun will rise. ”</h4>
       </div>
+      <span class="title_span">
+        강렬한 그림만큼 짧고 열정적인 삶을 산 화가<br />
+        별이 반짝이는 밤하늘를 보며 항상 꿈을 꾸었던 빈센트 반 고흐의 미술관의
+        다양한 소식을 지금 만나보세요.
+      </span>
+      <div class="silde_02">
+        <div class="center">
+          <div class="item">
+            <ul>
+              <li>
+                <a href="#"><span>빈센트 반 고흐 영화개봉</span></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/item_01.jpg" alt="" /></a>
+              </li>
+              <li>
+                <span>
+                  <span class="span_blod"><러빙 빈센트></span>
+                  <br />다시 돌아온 ‘빈센트 반 고흐’의 진짜 이야기 “당신은 그의
+                  삶에 대해 무엇을 알죠?” 살아생전 단 한 점의 그림만을 팔았던
+                  화가
+                  <br />
+                  <br />빈센트 반 고흐의 작품들이 재현되어 이야기</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>
+                <a href="#"><span>반 고흐, 영혼의 편지</span></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/item_02.jpg" alt="" /></a>
+              </li>
+              <li>
+                <span>
+                  <span class="span_blod"
+                    >고흐의 불꽃같은 열망과 고독한 내면의 기록</span
+                  >
+                  <br />
+                  1999년 6월에 출간되어 지금까지 20만 부가 넘게 판매되었던 『반
+                  고흐, 영혼의 편지』. 이 책은 태양의 화가 반 고흐의 편지들을
+                  묶은 것으로 동생 테오, 어머니, 동료인 고갱, 베르나르, 라파르
+                  등에게 띄운 편지 들을 수록했다.</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>
+                <a href="#"><span> 반 고흐 빌리지展 </span></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/item_03.jpg" alt="" /></a>
+              </li>
+              <li>
+                <span>
+                  <span class="span_blod">반 고흐 빌리지展</span>
+                  <br />
+                  컨버전스 아트 '반 고흐 빌리지展'은 명화와 IT기술의 유합을 통해
+                  빈센트 반 고흐가 작품활동을 했던 약 10년 동안의 삶과 작품을
+                  미디어아트로 선보인다. ‘활짝 핀 아몬드나무’, ‘까마귀가 나는
+                  밀밭’, ‘해바라기’, ‘별이 빛나는 밤’ 등 약 350여점의 작품을
+                  5m의 거대한 스크린과 70여대의 프로젝터, Full HD영상을 통해
+                  감상할 수 있다.</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>
+                <a href="#"><span>뮤지컬［빈센트 반 고흐］</span></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/item_04.jpg" alt="" /></a>
+              </li>
+              <li>
+                <span>
+                  <span class="span_blod">
+                    "바람과 온도, 달과 별의 하모니 모든 시름을 잊을 만큽
+                    아름다운 오베르의 밤"
+                  </span>
+                  <br />
+                  뮤지컬 <빈센트 반 고흐> 5주년! 관객과 언론의 쏟아지는 찬사!
+                  5년 동안 큰 사람을 받아온 뮤지컬 <빈센트 반 고흐> 2019년,
+                  당신의 겨울을 빛으로 물들일 단 하나의 뮤지컬! 전 세계가 사랑한
+                  화가, 빈센트 반 고흐의 그림 속으로 뛰어들다!
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <footer>
+      <div class="banner footer">
+        <div class="banner_dimm footer_dimm"></div>
+        <div class="footer_container container">
+          <div class="logo"><img src="./img/logo.png" alt="" /></div>
+          <ul class="social">
+            <li>
+              <a href="#"><i class="xi-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="xi-facebook-official"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="xi-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="xi-youtube-play"></i></a>
+            </li>
+          </ul>
+          <div class="footer_text">
+            <ul>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">콘텐츠 수정 및 오류신고</a></li>
+              <li><a href="#">제휴제안 </a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">운영원칙</a></li>
+              <li><a href="#">책임의 한계와 법적고지</a></li>
+            </ul>
+            <p>Gogh Museum © Gogh Museum. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script>
       //슬라이더
       $('.slide_01').slick({
@@ -264,6 +395,15 @@
         autoplaySpeed: 5000,
         prevArrow: $('.prev'),
         nextArrow: $('.next')
+      })
+
+      $('.center').slick({
+        autoplay: true,
+        centerMode: true,
+        centerPadding: '150px',
+        slidesToShow: 3
+        // arrows: true,
+        // dots: true
       })
 
       // 페이드 인
@@ -276,15 +416,16 @@
             var bottom_of_window = $(window).scrollTop() + $(window).height()
             /* 3 */
             if (bottom_of_window > bottom_of_object / 1.5) {
-              $(this).animate({ opacity: '1' }, 2500)
+              $(this).animate({ opacity: '1' }, 1500)
             }
           })
         })
       })
 
       // 패러렉스
-      $('.banner_01').parallax({ imageSrc: 'img/slide_01.png' })
-      $('.banner_02').parallax({ imageSrc: 'img/slide_01.png' })
+      $('.banner_01').parallax({ imageSrc: 'img/banner_01.jpg' })
+      $('.banner_02').parallax({ imageSrc: 'img/banner_02.jpg' })
+      $('.footer').parallax({ imageSrc: 'img/footer.jpg' })
     </script>
   </body>
 </html>
